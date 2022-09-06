@@ -1,0 +1,3 @@
+PART_TOUCH_ENTITY_BEGIN {
+	SetEntityPosition(entity = $obj2, map = "map001", pos = GetRebirthPos(entity = $obj2), rp = 0, ry = 0)
+}

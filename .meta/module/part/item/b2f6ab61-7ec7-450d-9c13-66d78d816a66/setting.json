@@ -1,0 +1,142 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetEntityPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "7eb4a921-0a6e-4175-90a0-b57aab5db1b2"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "map001"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "action": "ef6f20a4-35c0-4311-a6ab-751d6f6600cc"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "8a715704-fe8f-4705-ab9d-d9701d1c3f0a"
+              },
+              "pos": {
+                "x": 755,
+                "y": 162
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "7eb4a921-0a6e-4175-90a0-b57aab5db1b2"
+              },
+              "pos": {
+                "x": 1377,
+                "y": 59
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetRebirthPos",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "b4438412-ba92-4ff6-8abb-65f396e30eb6"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ef6f20a4-35c0-4311-a6ab-751d6f6600cc"
+              },
+              "pos": {
+                "x": 1456,
+                "y": 354
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "b4438412-ba92-4ff6-8abb-65f396e30eb6"
+              },
+              "pos": {
+                "x": 1797,
+                "y": 306
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "bba1813d-b9a1-4a60-823b-bdac55712cfa"
+            },
+            "type": "Trigger_PartTouchEntityBegin"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "8a715704-fe8f-4705-ab9d-d9701d1c3f0a"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "a08c684c-cd8c-4efb-bb3d-314db86c7d97"
+            }
+          },
+          "type": "Trigger_PartTouchEntityBegin"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "d406c39403d360202f472bb6e3111275"
+    },
+    "VERSION": "0.23"
+  }
+}

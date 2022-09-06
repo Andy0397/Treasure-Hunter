@@ -1,0 +1,4 @@
+PART_TOUCH_ENTITY_BEGIN {
+	Damage(damage = 10, entity = $obj2)
+	SetEntityPosition(entity = $obj2, map = "map001", pos = GetRebirthPos(entity = $obj2), rp = 0, ry = 0)
+}

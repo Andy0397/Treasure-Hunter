@@ -1,0 +1,59 @@
+{
+  "data": {
+    "actorModel": {
+      "modelType": "Customize"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "memory": {
+        "Capsule": "1.700000-0.430000"
+      },
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "boundingVolumeEntityCfg": {
+      "height": 1.7,
+      "memory": {
+        "Capsule": "1.700000-0.430000",
+        "Cylinder": "1.000000-0.500000",
+        "Sector": "1.000000-0.500000",
+        "Sphere": "1.000000-0.500000"
+      },
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "canRevive": true,
+    "collision": true,
+    "damage": 5,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "hideHp": false,
+    "isPlayer": true,
+    "maxHp": 5,
+    "moveSpeed": 6,
+    "name": {
+      "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "deb50460a3d371acd6ee71662832e353",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}
